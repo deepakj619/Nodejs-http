@@ -29,3 +29,5 @@ node_modules
 
 #test reports
 reports
+
+.idea
