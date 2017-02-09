@@ -11,6 +11,7 @@ var PORT = 3000;
 // This callback will handle all the request processing and send
 // response.
 function handleRequest(request, response){
+	
 	var bodyStr = "";
 
 	//This is the onData event listener that
