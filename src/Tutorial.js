@@ -37,6 +37,7 @@ function handleRequest(request, response){
 			responseBody.incomingRequestBody = JSON.parse(bodyStr);
 		}
 
+        response.statusCode=200
 		//response.end will send the response (including status and body)
 		response.end(JSON.stringify(responseBody));
 	});
